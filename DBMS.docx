@@ -1,0 +1,41 @@
+Domain Description:
+Currently, we are making a student registration system which supports the database framework. We will add various functionalities such as registering for courses, dropping the courses, getting the information about the courses and information can be retrieved in any way as wished by the user.
+
+Functionality Supported:
+The project supports all the basic queries in a database. We can add, delete, modify and do all the search operations in the database. There are 2 entities: Student and Courses, with the relation Enrolled in. 
+Student entity contains the following attributes: Student id.(varchar),Student name(varchar) and password(varchar).
+Course entity contains the following attributes: Course id.(varchar),Course name(varchar),Professor(varchar),Credits(int(1)) and Laboratory(Boolean).
+
+GUI interfaces:
+Login Page:
+The first page upon opening the website. Contains fields for student identity numberand password. The login button directs to Coursespage. The New User button directs to New User page.
+
+New User Page:
+Contains fields for student identity number, name and their password.
+The Sign-Up button directs to the Login page.		
+
+Courses:
+Contains buttons for registering a course, dropping and finding general information.
+The registering and dropping buttons lead to pop-ups which contain fields for course number and the corresponding button. The General Information button leads to the Info page.
+
+Info:
+Contains general queries regarding the data to be retrieved from the database. 		
+
+Technology used:
+We are using Linux, Apache, MySQL, PHP(LAMP) along with Yii advanced framework.
+The frontend is handled by PHP while the backend by MySQL. The MySQL is used for storing data related to the website.	
+
+Members:
+1) Gotam Dahiya 2017A7PS0223H
+2) Harsh Pateria 2017A7PS0129H
+3) Aman Sepat 2017A7PS0257H
+4) Shantanu Gupta 2017A7PS0137H
+
+
+
+
+
+
+
+
+
